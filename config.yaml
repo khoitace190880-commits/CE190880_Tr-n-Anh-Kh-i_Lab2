@@ -1,0 +1,7 @@
+# Optional defaults. CLI arguments override these values.
+source: "http://PHONE_IP:8080/video"
+model: "cnn"  # cnn | transfer
+confidence_threshold: 0.0
+weights:
+  cnn: "weights/cnn_best.pth"
+  transfer: "weights/transfer_best.pth"

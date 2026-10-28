@@ -1,0 +1,152 @@
+{
+  "model": "cnn",
+  "device": "cuda",
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "train_images": 25838,
+  "validation_images": 2871,
+  "test_images": 7178,
+  "test_accuracy": 0.6369462245750905,
+  "test_macro_f1": 0.62300128054678,
+  "parameters": 1764519,
+  "inference_fps_batch_estimate": 8492.089293755465,
+  "best_validation_macro_f1": 0.6098192467019402,
+  "classification_report": {
+    "angry": {
+      "precision": 0.5628245067497404,
+      "recall": 0.5657620041753654,
+      "f1-score": 0.5642894325871942,
+      "support": 958.0
+    },
+    "disgust": {
+      "precision": 0.6886792452830188,
+      "recall": 0.6576576576576577,
+      "f1-score": 0.6728110599078341,
+      "support": 111.0
+    },
+    "fear": {
+      "precision": 0.4931506849315068,
+      "recall": 0.31640625,
+      "f1-score": 0.3854848304580607,
+      "support": 1024.0
+    },
+    "happy": {
+      "precision": 0.874251497005988,
+      "recall": 0.8229988726042841,
+      "f1-score": 0.8478513356562137,
+      "support": 1774.0
+    },
+    "neutral": {
+      "precision": 0.5926517571884984,
+      "recall": 0.6017842660178426,
+      "f1-score": 0.5971830985915493,
+      "support": 1233.0
+    },
+    "sad": {
+      "precision": 0.4730971128608924,
+      "recall": 0.5781876503608661,
+      "f1-score": 0.5203897509924215,
+      "support": 1247.0
+    },
+    "surprise": {
+      "precision": 0.705765407554672,
+      "recall": 0.8543922984356197,
+      "f1-score": 0.7729994556341862,
+      "support": 831.0
+    },
+    "accuracy": 0.6369462245750905,
+    "macro avg": {
+      "precision": 0.6272028873677595,
+      "recall": 0.628169857035948,
+      "f1-score": 0.62300128054678,
+      "support": 7178.0
+    },
+    "weighted avg": {
+      "precision": 0.6378824882669317,
+      "recall": 0.6369462245750905,
+      "f1-score": 0.6327265767058258,
+      "support": 7178.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      542,
+      23,
+      82,
+      31,
+      87,
+      163,
+      30
+    ],
+    [
+      24,
+      73,
+      3,
+      1,
+      4,
+      5,
+      1
+    ],
+    [
+      136,
+      4,
+      324,
+      28,
+      100,
+      287,
+      145
+    ],
+    [
+      45,
+      1,
+      30,
+      1460,
+      106,
+      59,
+      73
+    ],
+    [
+      72,
+      2,
+      37,
+      78,
+      742,
+      277,
+      25
+    ],
+    [
+      131,
+      2,
+      116,
+      53,
+      202,
+      721,
+      22
+    ],
+    [
+      13,
+      1,
+      65,
+      19,
+      11,
+      12,
+      710
+    ]
+  ],
+  "class_counts_train": {
+    "angry": 3995,
+    "disgust": 436,
+    "fear": 4097,
+    "happy": 7215,
+    "neutral": 4965,
+    "sad": 4830,
+    "surprise": 3171
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "model": "transfer",
+  "device": "cuda",
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "train_images": 25838,
+  "validation_images": 2871,
+  "test_images": 7178,
+  "test_accuracy": 0.6629980495959877,
+  "test_macro_f1": 0.6435480896950831,
+  "parameters": 11180103,
+  "inference_fps_batch_estimate": 928.3030047843619,
+  "best_validation_macro_f1": 0.6543735699628848,
+  "classification_report": {
+    "angry": {
+      "precision": 0.5631970260223048,
+      "recall": 0.6325678496868476,
+      "f1-score": 0.5958702064896755,
+      "support": 958.0
+    },
+    "disgust": {
+      "precision": 0.5306122448979592,
+      "recall": 0.7027027027027027,
+      "f1-score": 0.6046511627906976,
+      "support": 111.0
+    },
+    "fear": {
+      "precision": 0.528322440087146,
+      "recall": 0.4736328125,
+      "f1-score": 0.49948506694129763,
+      "support": 1024.0
+    },
+    "happy": {
+      "precision": 0.9023941068139963,
+      "recall": 0.8286358511837655,
+      "f1-score": 0.8639435791948281,
+      "support": 1774.0
+    },
+    "neutral": {
+      "precision": 0.5963369963369963,
+      "recall": 0.6601784266017843,
+      "f1-score": 0.6266358737490377,
+      "support": 1233.0
+    },
+    "sad": {
+      "precision": 0.5447822514379622,
+      "recall": 0.5316760224538893,
+      "f1-score": 0.5381493506493507,
+      "support": 1247.0
+    },
+    "surprise": {
+      "precision": 0.7784503631961259,
+      "recall": 0.7737665463297232,
+      "f1-score": 0.7761013880506941,
+      "support": 831.0
+    },
+    "accuracy": 0.6629980495959877,
+    "macro avg": {
+      "precision": 0.6348707755417843,
+      "recall": 0.6575943159226733,
+      "f1-score": 0.6435480896950831,
+      "support": 7178.0
+    },
+    "weighted avg": {
+      "precision": 0.668962004749644,
+      "recall": 0.6629980495959877,
+      "f1-score": 0.6646312456100336,
+      "support": 7178.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      606,
+      38,
+      85,
+      30,
+      85,
+      101,
+      13
+    ],
+    [
+      17,
+      78,
+      3,
+      0,
+      3,
+      8,
+      2
+    ],
+    [
+      137,
+      12,
+      485,
+      11,
+      106,
+      199,
+      74
+    ],
+    [
+      42,
+      3,
+      39,
+      1470,
+      112,
+      57,
+      51
+    ],
+    [
+      92,
+      5,
+      62,
+      63,
+      814,
+      176,
+      21
+    ],
+    [
+      160,
+      7,
+      137,
+      32,
+      226,
+      663,
+      22
+    ],
+    [
+      22,
+      4,
+      107,
+      23,
+      19,
+      13,
+      643
+    ]
+  ],
+  "class_counts_train": {
+    "angry": 3995,
+    "disgust": 436,
+    "fear": 4097,
+    "happy": 7215,
+    "neutral": 4965,
+    "sad": 4830,
+    "surprise": 3171
+  }
+}

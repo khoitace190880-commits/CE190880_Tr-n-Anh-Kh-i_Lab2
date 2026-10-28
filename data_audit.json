@@ -1,0 +1,41 @@
+{
+  "dataset": "FER-2013 (provided fer2013.zip)",
+  "image_size": [
+    48,
+    48
+  ],
+  "mode": "grayscale",
+  "classes": {
+    "angry": {
+      "train": 3995,
+      "test": 958
+    },
+    "disgust": {
+      "train": 436,
+      "test": 111
+    },
+    "fear": {
+      "train": 4097,
+      "test": 1024
+    },
+    "happy": {
+      "train": 7215,
+      "test": 1774
+    },
+    "neutral": {
+      "train": 4965,
+      "test": 1233
+    },
+    "sad": {
+      "train": 4830,
+      "test": 1247
+    },
+    "surprise": {
+      "train": 3171,
+      "test": 831
+    }
+  },
+  "total_images": 35887,
+  "train_total": 28709,
+  "test_total": 7178
+}
